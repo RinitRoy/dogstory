@@ -1,0 +1,176 @@
+body{
+    background: rgb(15,12,41);
+    background: linear-gradient(90deg, rgba(15,12,41,1) 0%, rgba(48,43,99,1) 50%, rgba(36,36,62,1) 100%);
+    margin: 0 auto;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin: 30px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 64px;
+}
+
+body .hero-img{
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        margin: 30px;
+        font-family: 'Great Vibes', cursive;
+        font-size: 48px;
+    }
+
+    body .hero-img{
+        width: 80%;
+        height: auto;
+        border-radius: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p{
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body .hero-img{
+        width: 80%;
+        height: auto;
+        border-radius: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        margin: 30px;
+        font-family: 'Great Vibes', cursive;
+        font-size: 48px;
+    }
+
+    p{
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body .hero-img{
+        width: 80%;
+        height: auto;
+        border-radius: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p{
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 24px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body .hero-img{
+        width: 60%;
+        height: auto;
+        border-radius: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        margin: 30px;
+        font-family: 'Great Vibes', cursive;
+        font-size: 64px;
+    }
+
+    p{
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 24px;
+    }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body .hero-img{
+        width: 60%;
+        height: auto;
+        border-radius: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        margin: 30px;
+        font-family: 'Great Vibes', cursive;
+        font-size: 64px;
+    }
+
+    p{
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 24px;
+    }
+    
+} 
